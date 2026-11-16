@@ -1,0 +1,14 @@
+{
+  "sourceBase": "https://solana.com/breakpoint/badge/emulator/",
+  "files": {
+    "solana-os.js": {
+      "sha256": "4bd19fc6e564179e763225d924465de2d8fef92c5c7ce2429e93b70e9439b49d",
+      "bytes": 79753
+    },
+    "solana-os.wasm": {
+      "sha256": "6348ae2e8554dd02eac3627c58b17b98ab8d66c1a2ae1b24c6f1bdca9a5b7593",
+      "bytes": 2131066
+    }
+  },
+  "reportedVersion": "2.4.0"
+}

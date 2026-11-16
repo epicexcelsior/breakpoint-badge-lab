@@ -1,0 +1,484 @@
+{
+  "capturedAt": "2026-11-16T14:43:03.449196+00:00",
+  "repository": "https://github.com/solana-foundation/solana-os",
+  "commit": "7c22c44d8db16dd8c6f90d5f61ead8eba055b973",
+  "sourceVersion": "2.2.0",
+  "note": "Live site documents C apps >=2.3.0 and gossip >=2.4.0 ahead of the public Git snapshot. Apps use the established Lua API.",
+  "files": [
+    {
+      "path": "docs/upstream/live/C_API.md",
+      "sha256": "8611eccc43259a1dd0ad0755904736043917455e03386b6f65c12a48c3b757b4",
+      "bytes": 104970
+    },
+    {
+      "path": "docs/upstream/solana-os/CHANGELOG.md",
+      "sha256": "04e813fc90eff6e10a02aa5dde3be5be378e06bffecdc0d5981e547a9d6c151c",
+      "bytes": 55988
+    },
+    {
+      "path": "docs/upstream/solana-os/EMULATOR.md",
+      "sha256": "bde827efd3232f94f94d257fe61c462fb1f9039aeec9250d5a323696f21a1393",
+      "bytes": 12053
+    },
+    {
+      "path": "docs/upstream/solana-os/LICENSE",
+      "sha256": "cd8a2fd0fb4c4d53b929655c93e760e0a805ce16829ae0e0af45807926456a71",
+      "bytes": 1538
+    },
+    {
+      "path": "docs/upstream/solana-os/README.md",
+      "sha256": "7485fdda8981b4894ed24fcfac9e33745d522872aa69a03f445e66f1fa782203",
+      "bytes": 4857
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/CONNECTIVITY.md",
+      "sha256": "aa4bdc07c9eb9c21cb1c993a8b147c39d2d6decac17d9998c6ee78c9c91d5598",
+      "bytes": 20825
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/LUA_API.md",
+      "sha256": "fd67eb31677109d8dbd5a7af875afb2cb8488af458e7d6fc9e693032ef485309",
+      "bytes": 112077
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/QUESTS.md",
+      "sha256": "7e3b9abc04b16f1ec3ac1e7536478c882930ad3c4db8208892134486436c73f9",
+      "bytes": 36069
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/ble-button-box/CMakeLists.txt",
+      "sha256": "891d88fbef6a373c1fb957cccc83855e969520b6c7fb8ca874760c1bc3db269d",
+      "bytes": 235
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/ble-button-box/README.md",
+      "sha256": "ad350a76bf4e6d1c7ff660c53a638bda0a226e61de258f8b88599658e8891884",
+      "bytes": 4131
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/ble-button-box/app/app.json",
+      "sha256": "6839f4ec857b66b0062a84272b590e71d8d1185b9b3112d545e0807301292fbc",
+      "bytes": 270
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/ble-button-box/app/main.lua",
+      "sha256": "46b1f623c5814b7e97a70afc45499db44de624ccda51da10d2a80e4ed6c066b5",
+      "bytes": 3753
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/ble-button-box/main/CMakeLists.txt",
+      "sha256": "52493ccc24749e14056e8a8070d95637269fbf3db3077ee789a5282b63edc131",
+      "bytes": 144
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/ble-button-box/main/Kconfig.projbuild",
+      "sha256": "af604a9c0353aee934eadd47a6180acbe1fc8395c429c91752a7c7b39771c5a5",
+      "bytes": 679
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/ble-button-box/main/main.c",
+      "sha256": "369091e3c6ffc98760ea6484453026aa4640b923b369f32f9a396dcaa6b2d34b",
+      "bytes": 6114
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/ble-button-box/sdkconfig.defaults",
+      "sha256": "e6e1de3d6db96f7f6acb67e2c591d6c7875d12662e735ccf2c1d25b7bef7f6d9",
+      "bytes": 614
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/ble-link/README.md",
+      "sha256": "9119c473019f52c4d85a3dec915a37f5dee9433176f56be5d484b738f090b715",
+      "bytes": 1839
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/ble-link/app.json",
+      "sha256": "edf70da347e030c9863bcd227b4af9d6592c4ea7ad089ee733aaad2a0a3a170a",
+      "bytes": 265
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/ble-link/main.lua",
+      "sha256": "8a3b8c61b01b8ff91df174ac9ad1b02554cbef6b9dec38a1fe49010d8332ed75",
+      "bytes": 6675
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/ble-nearby/README.md",
+      "sha256": "c381921f04bf85634e2a0deb5173fea07a8e60ded6c904b0d0ba297d88644573",
+      "bytes": 1480
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/ble-nearby/app.json",
+      "sha256": "cf0ff9f49edd342797ea847097e8e87d1a6ee947a1af3652954b9b4902042ef3",
+      "bytes": 269
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/ble-nearby/main.lua",
+      "sha256": "f609ba9c10b1afecb5307fccfbf01aa793a9db0a6bf66979dabb0a7fd2b377b6",
+      "bytes": 3940
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/mesh-and-wifi/README.md",
+      "sha256": "6ebc34f4349c9adf1e752734c366951b24725d5e56e782a5f998502337169a35",
+      "bytes": 2158
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/mesh-and-wifi/app.json",
+      "sha256": "55c54ddc083de84144aa83448b63d9060c38ff796277e307245fa0ba5a049138",
+      "bytes": 321
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/mesh-and-wifi/main.lua",
+      "sha256": "aef6e4c19747ecec758bb4459d5f62118e1ca89d92296bd6b1bf71071fb40315",
+      "bytes": 6589
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/squads-pager/README.md",
+      "sha256": "4af0a5d3d13ed65a41db4a19860700e69f52b47b57318d045c8b2cc34cb8c0c4",
+      "bytes": 4859
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/squads-pager/app.json",
+      "sha256": "73554c25988e6c8086a145085d4c8bf537a25b6616830a1151db2de509aee8d8",
+      "bytes": 291
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/squads-pager/main.lua",
+      "sha256": "8bae09b91301b0e877fbdc0ac9539a85ee4ac50058eb87564e3148493065503a",
+      "bytes": 21774
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/squads-pager/test.lua",
+      "sha256": "0989b7228bd24d3c53e9516a9215960256aa3849d72070dbee95d7313bafe21e",
+      "bytes": 16933
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/wifi-room/README.md",
+      "sha256": "f474cb2a58d20379f146bed749c892696fead5fe669d15b0594b83ef4e1ac122",
+      "bytes": 2620
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/wifi-room/app.json",
+      "sha256": "d17d4ee6e65a15415a83dd7699b8f59155a50646a77c530c59fef1269c966b1e",
+      "bytes": 305
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/wifi-room/main.lua",
+      "sha256": "868db291b71980da601313cfeadb4ea72b707b11b5588dde5f47edd97d0a20ae",
+      "bytes": 4292
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/examples/wifi-room/server.ts",
+      "sha256": "e5cff17c1cbdd2e7f7ed56fd1ee390790e31989ccb985e67a703ab2f0b5be412",
+      "bytes": 9047
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/img/triton-on-dark.svg",
+      "sha256": "0c1f50274d36c4f537606111cad7510fb09d7885ea3f7a7ec89845aaffbba0ee",
+      "bytes": 6044
+    },
+    {
+      "path": "docs/upstream/solana-os/docs/img/triton-on-light.svg",
+      "sha256": "df81608e5288c78e31a4c3ed2b439ad4c4bfcbe0b41aaef388f1e04d190eba96",
+      "bytes": 6044
+    },
+    {
+      "path": "docs/upstream/solana-os/esp-idf.commit",
+      "sha256": "95ff9958b20e88f39d392eded391415497c8a9ff364ce4d35251335ad43e4e01",
+      "bytes": 41
+    },
+    {
+      "path": "vendor/lua/LICENSE",
+      "sha256": "2e37e91e75dff1c990b86db6aaac9d195a82a15db99526466246da801a47a15d",
+      "bytes": 2418
+    },
+    {
+      "path": "vendor/lua/lapi.c",
+      "sha256": "e5c0dd68e836f88cc79ea6ea35fe84672ba4283f2259eaef7fa1d7468011f159",
+      "bytes": 38094
+    },
+    {
+      "path": "vendor/lua/lapi.h",
+      "sha256": "f3780df32449b84c4b8c4e2f8ac780d45b50c190b4965c329842d5f216ad4dcb",
+      "bytes": 1635
+    },
+    {
+      "path": "vendor/lua/lauxlib.c",
+      "sha256": "f5fc002dd9490d19985ea556acdb717e5056c352b94eb61485acabeffe336591",
+      "bytes": 38976
+    },
+    {
+      "path": "vendor/lua/lauxlib.h",
+      "sha256": "49e9d02706ea79eddc611cff8beba7a2d89aa39fb8110034633eeefad42ac2ee",
+      "bytes": 8833
+    },
+    {
+      "path": "vendor/lua/lbaselib.c",
+      "sha256": "c86efd0ab819c08a4d253d2071ba6ef58bd63d0d1a8b8b383c3bc6b661167028",
+      "bytes": 15443
+    },
+    {
+      "path": "vendor/lua/lcode.c",
+      "sha256": "9ad73605143555e094f00bd87b0dadb3002c440e7ed743bdd09637e73466cbb6",
+      "bytes": 57163
+    },
+    {
+      "path": "vendor/lua/lcode.h",
+      "sha256": "c5804ed0ce52cd2034cda9fcca256cc56333ec9954023b233da5a0ea533ce2e6",
+      "bytes": 3901
+    },
+    {
+      "path": "vendor/lua/lcorolib.c",
+      "sha256": "14ab32084fafe825b6dca8c2d69fbbfd68e6a5c442acf4b18cc78f9dc15a820a",
+      "bytes": 5270
+    },
+    {
+      "path": "vendor/lua/lctype.c",
+      "sha256": "2b8e4894b6cff2afc111c1c996de4b78b4db2cf0c83d485d396806baa9e5b28b",
+      "bytes": 2461
+    },
+    {
+      "path": "vendor/lua/lctype.h",
+      "sha256": "c800311872ecba642f6d013b290eda83ba6cd8df8061e25cdca1dd4adcbed8b5",
+      "bytes": 2115
+    },
+    {
+      "path": "vendor/lua/ldebug.c",
+      "sha256": "a15af90335bee18c4c4b04195bf20c7f2481b8b3af88f7ade4d92be3f3584b74",
+      "bytes": 30026
+    },
+    {
+      "path": "vendor/lua/ldebug.h",
+      "sha256": "29e0a057ea98a7921d30d32b12ff82b4988848ee5a1163e8e3dd702583b5d2d2",
+      "bytes": 2283
+    },
+    {
+      "path": "vendor/lua/ldo.c",
+      "sha256": "21d878c11c6d161b10e47038111e2837bd633f34f4cc7631370b3b4b6d41530a",
+      "bytes": 40755
+    },
+    {
+      "path": "vendor/lua/ldo.h",
+      "sha256": "4bb9b8353327a71bae9c5c59f00eea17beb6e11b8325df75af23dda89ae26725",
+      "bytes": 3650
+    },
+    {
+      "path": "vendor/lua/ldump.c",
+      "sha256": "e54ccf3a374b705b2d9b4d71cb2387bfeeb905ef0b4fc4f5129d160b016623be",
+      "bytes": 8231
+    },
+    {
+      "path": "vendor/lua/lfunc.c",
+      "sha256": "033d3511a16e3c0947a69c12d47f54a7d48acf41060355e72779f6459c7f75f3",
+      "bytes": 9153
+    },
+    {
+      "path": "vendor/lua/lfunc.h",
+      "sha256": "cfa1e9c22b0bb68098fbee66ed266de25f62d033bba9668d4618b9ee667c673e",
+      "bytes": 1699
+    },
+    {
+      "path": "vendor/lua/lgc.c",
+      "sha256": "fdbeb7246deebb353fc0d462a9712a7e34983b37340be4877c621535e3b1baa3",
+      "bytes": 57890
+    },
+    {
+      "path": "vendor/lua/lgc.h",
+      "sha256": "cfc9ab1a6e1419793f1a2bcfc78b095781c024564dd6b6b5100a95015d507b7d",
+      "bytes": 9007
+    },
+    {
+      "path": "vendor/lua/ljumptab.h",
+      "sha256": "8acb9bb44752da9bb9e9923fc890416574ac2763b6631baccbdc8b1817133413",
+      "bytes": 1694
+    },
+    {
+      "path": "vendor/lua/llex.c",
+      "sha256": "f24fe0ca1cd3c1050c8b229c26a4d31b4abd21bf3b352234efb6b0d7059e1c56",
+      "bytes": 17843
+    },
+    {
+      "path": "vendor/lua/llex.h",
+      "sha256": "b40436d5a40165a4f7a4bd7a89dbac542fd6213a3a0c094646f4184b41eed36c",
+      "bytes": 2535
+    },
+    {
+      "path": "vendor/lua/llimits.h",
+      "sha256": "c01c714288789cccda925195260460e506bc81506bacfa3f30a3bf159fa48576",
+      "bytes": 9814
+    },
+    {
+      "path": "vendor/lua/lmathlib.c",
+      "sha256": "27336bfd629d7472dc6e0807a805483e2c8e30828257465e4f466559de7f6e4b",
+      "bytes": 19049
+    },
+    {
+      "path": "vendor/lua/lmem.c",
+      "sha256": "7a63908f22ac826f3eb6826bd106d4eed40a7df749da8a87c06713e980fad099",
+      "bytes": 6245
+    },
+    {
+      "path": "vendor/lua/lmem.h",
+      "sha256": "02656822c7d11b096ebcf718e061a57b108f7bf80ec4eaa4094191d6e30809af",
+      "bytes": 3435
+    },
+    {
+      "path": "vendor/lua/lobject.c",
+      "sha256": "c5bb25d52e84294289b34ed20f1004fa6ed9bf9a5012ccb81c67eba43163a48b",
+      "bytes": 24091
+    },
+    {
+      "path": "vendor/lua/lobject.h",
+      "sha256": "c38f2c001065e03b238f1d8f814346bfa00a54183720604f1b2d42bce08b305f",
+      "bytes": 24519
+    },
+    {
+      "path": "vendor/lua/lopcodes.c",
+      "sha256": "fc4036555d17e68bbf4d49de9e0762c0da42886ad7caed10cc9862ed7926ba18",
+      "bytes": 4805
+    },
+    {
+      "path": "vendor/lua/lopcodes.h",
+      "sha256": "46e41e9cadc08527139b3bda14f321d3e2c196eb6aedabfe4fdf21b2ee5f201d",
+      "bytes": 14193
+    },
+    {
+      "path": "vendor/lua/lopnames.h",
+      "sha256": "1e6c0113507fbcae4255281cce5bf32b589be49fd90d4a3dd3c31d15bb68d0eb",
+      "bytes": 1169
+    },
+    {
+      "path": "vendor/lua/lparser.c",
+      "sha256": "918436a59eb67e22e08cc0aede69926a9af9ee106c97ce6bd9568b05c728a8c6",
+      "bytes": 65674
+    },
+    {
+      "path": "vendor/lua/lparser.h",
+      "sha256": "0e39ceb3cef13bc8d2d5843f9d0da59289261288dd459ed53ede8441b4ff080b",
+      "bytes": 7118
+    },
+    {
+      "path": "vendor/lua/lprefix.h",
+      "sha256": "626785d4eda75e9435f0ac21a780ae3b11f8b27dc36934e637a5c2305f906531",
+      "bytes": 828
+    },
+    {
+      "path": "vendor/lua/lstate.c",
+      "sha256": "27a58d4afb87fe43c7023264cc97a3d357313eb529b3cc11d2f194b7d04842d4",
+      "bytes": 11381
+    },
+    {
+      "path": "vendor/lua/lstate.h",
+      "sha256": "62ec82249a387c48dadccbdc39b28fd50b3e25462aaa2564c9eb32d1060ca8f0",
+      "bytes": 15983
+    },
+    {
+      "path": "vendor/lua/lstring.c",
+      "sha256": "a68bead5c3c726bffa2c6d59c06de8c1fe1b962379a01f8c54678285b594365a",
+      "bytes": 9870
+    },
+    {
+      "path": "vendor/lua/lstring.h",
+      "sha256": "11174f9fb1a140afb2bad7b44471add3d143eb4fa6f249614fd5958211831f9b",
+      "bytes": 2100
+    },
+    {
+      "path": "vendor/lua/lstrlib.c",
+      "sha256": "9e97e60749543052cd1e8a24552bd98adba30140feeb70f42667f854b00a9468",
+      "bytes": 59379
+    },
+    {
+      "path": "vendor/lua/ltable.c",
+      "sha256": "a271ba45de53d05c7b47cf8ad86628f2c35c85e920c9d29f6c7e133c5b7664f2",
+      "bytes": 43200
+    },
+    {
+      "path": "vendor/lua/ltable.h",
+      "sha256": "d7d9b827572f379f13d928ec805b8f11b9a93762b8a258cf7aacb14f1e208f4b",
+      "bytes": 6449
+    },
+    {
+      "path": "vendor/lua/ltablib.c",
+      "sha256": "4bde576ca5012b03161d4bf38b4d8fc2aab1bbed1993eb6e629620f1f5eb0f4c",
+      "bytes": 13295
+    },
+    {
+      "path": "vendor/lua/ltm.c",
+      "sha256": "86e85bbb147f63fbbc67dc451f401fe4bb9b7ecc8c05e003f664dfe9717d860b",
+      "bytes": 11398
+    },
+    {
+      "path": "vendor/lua/ltm.h",
+      "sha256": "f4d164a3b22632bbf2ef27e20f89d5a808ccafc9e69d861d81a65c159e5ce341",
+      "bytes": 3058
+    },
+    {
+      "path": "vendor/lua/lua.h",
+      "sha256": "c5f67fc49b7de0bffb816d9676e341502720890ddb6904c5bd133bef0efb11c0",
+      "bytes": 16888
+    },
+    {
+      "path": "vendor/lua/luaconf.h",
+      "sha256": "6a33b5b87da28162cd06e1e1ca9e2be977e78fc500ddd79b69c4c3bdcf9e7efd",
+      "bytes": 22299
+    },
+    {
+      "path": "vendor/lua/lualib.h",
+      "sha256": "ca847f045256db26a03a654c60ca4db567fc63a54679bba4233114f0c3d532d1",
+      "bytes": 1593
+    },
+    {
+      "path": "vendor/lua/lundump.c",
+      "sha256": "4567fbd6689304ae675337805ddb5d13ecda6df0323655bf498978da1a93862c",
+      "bytes": 10916
+    },
+    {
+      "path": "vendor/lua/lundump.h",
+      "sha256": "7b752cdfbb9d3f476209615b265bb58e51184e5577da7cc02caa449a441912d3",
+      "bytes": 904
+    },
+    {
+      "path": "vendor/lua/lutf8lib.c",
+      "sha256": "7c44f0b2a6ce5f54991baa1bcb643bf563e2dcd7a59be0cd0b0eefe0936ea04a",
+      "bytes": 8583
+    },
+    {
+      "path": "vendor/lua/lvm.c",
+      "sha256": "632ca1fc6400301e3b11195d4830e948e6b4a50b6262187307eb8afe1f769c22",
+      "bytes": 61743
+    },
+    {
+      "path": "vendor/lua/lvm.h",
+      "sha256": "9a8f5f3189ee4835a0e12bca3023315fa373c161a77812ce92cdea90a92d4a17",
+      "bytes": 4067
+    },
+    {
+      "path": "vendor/lua/lzio.c",
+      "sha256": "9495c7396d04a857e4e6ae917a72ab6906855d30f7dc851527a87cc16d01fcc1",
+      "bytes": 1809
+    },
+    {
+      "path": "vendor/lua/lzio.h",
+      "sha256": "e9be4389ffa2936e462bc39e11de0341c5b14a99ee83f7f5e1683c52c9c2d675",
+      "bytes": 1503
+    },
+    {
+      "path": "vendor/emulator/LICENSE",
+      "sha256": "cd8a2fd0fb4c4d53b929655c93e760e0a805ce16829ae0e0af45807926456a71",
+      "bytes": 1538
+    },
+    {
+      "path": "vendor/emulator/solana-os.js",
+      "sha256": "4bd19fc6e564179e763225d924465de2d8fef92c5c7ce2429e93b70e9439b49d",
+      "bytes": 79753
+    },
+    {
+      "path": "vendor/emulator/solana-os.wasm",
+      "sha256": "6348ae2e8554dd02eac3627c58b17b98ab8d66c1a2ae1b24c6f1bdca9a5b7593",
+      "bytes": 2131066
+    },
+    {
+      "path": "sdk/solana-os-c-sdk.zip",
+      "sha256": "a1dbbd0037ae8be2c7efd1703e2a76f690564678ab80e16a332c97667575e4e4",
+      "bytes": 221651
+    }
+  ]
+}
