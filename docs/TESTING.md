@@ -10,7 +10,7 @@ Run `./badge test` before publishing any package.
 4. Run deterministic app tests with a badge API stand-in.
 5. Run both apps on the official 2.4.0 firmware emulator.
 6. Exercise keys, inspect errors, record memory, and save rendered screenshots.
-7. Exchange Sideband messages between two firmware instances through the emulator's radio transport.
+7. Exchange Shipmates messages between two firmware instances through the emulator's radio transport.
 8. Build deterministic ZIPs and verify their checksums.
 
 The stand-in tests cover malformed messages, expiry, bounded peers, consent, pause/resume, and timer boundaries.
@@ -25,7 +25,7 @@ CI uploads it separately. A release notes its exact checks and remaining physica
 1. Check the firmware version and microSD card with the console.
 2. Load each app with the USB loader.
 3. Check display readability, D-pad operation, SELECT, CANCEL, and BOOT.
-4. Check Sideband starts with sharing off after every launch.
+4. Check Shipmates starts with sharing off after every launch.
 5. Use two real badges. Match complementary topics and exchange a mutual hello.
 6. Turn Wi-Fi off. Repeat the nearby exchange on the same mesh channel.
 7. Walk apart. Check stale peers disappear and return after reconnection.

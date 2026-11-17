@@ -1,0 +1,11 @@
+{
+  "id": "pocket-pause",
+  "name": "Pocket Pause",
+  "version": "0.1.0",
+  "summary": "A quiet breathing guide and focus timer. One button, offline, no account.",
+  "icon": "heart",
+  "accent": "82C8E5",
+  "category": "tools",
+  "permissions": ["led"],
+  "hosts": []
+}

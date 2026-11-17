@@ -7,6 +7,6 @@
 - Run `./badge test` and `./badge package` before a release. Run `./badge verify` to check archived sources.
 - Run `./badge emulator` for actual firmware behavior. Mock tests alone cannot prove API compatibility.
 - Keep radio messages bounded, rate-limited, and untrusted. Never execute received source or accept remote console commands.
-- Sharing starts only after a button press. Reopening Sideband starts with sharing off.
+- Sharing starts only after a button press. Reopening Shipmates starts with sharing off.
 - Keep physical-hardware checks pending until a real badge supplies evidence. Never label emulated radios as physical tests.
 - Keep app packages free of test code, credentials, telemetry, and private keys.

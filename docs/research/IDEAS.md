@@ -1,11 +1,11 @@
 # Ideas and selected scope
 
-Decision: build **Sideband** deeply, then **Pocket Pause** as a second independent app.
+Decision: build **Shipmates** deeply, then **Pocket Pause** as a second independent app.
 Both run on stock firmware, work without our backend, and remain useful at future events.
 
 | Idea | Useful result | Demonstration | Decision |
 | --- | --- | --- | --- |
-| Sideband social radar | Find people with a complementary ask or offer | Two badges discover a match and exchange a mutual hello | Primary release |
+| Shipmates social radar | Find people with a complementary ask or offer | Two badges discover a match and exchange a mutual hello | Primary release |
 | Pocket Pause | Take a quiet break or run a focus interval | One button starts a calm visual guide | Secondary release |
 | Phone audio controller | Control a mic, recorder, or soundboard over BLE | Badge button triggers sound through phone earbuds | Next experiment. Physical BLE and phone compatibility are untested |
 | Social voice channels | Talk with a group through phones | Badges act as push-to-talk remotes | Defer. Audio transport, identity, and signaling expand scope |
@@ -13,7 +13,7 @@ Both run on stock firmware, work without our backend, and remain useful at futur
 | Autonomous event helper | Summarize explicit requests and suggest introductions | Helpful suggestions on badge and phone | Defer until real demand and a trustworthy backend exist |
 | Gossip game extensions | Build on the platform's creature/program network | Show game state spreading between badges | Research archived. Live 2.4.0 docs exceed the public source snapshot |
 
-## Sideband's growth loop
+## Shipmates's growth loop
 
 1. Show a useful ask and offer.
 2. Install with a friend and find a complementary match.

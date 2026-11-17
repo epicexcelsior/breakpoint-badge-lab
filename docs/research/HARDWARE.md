@@ -33,7 +33,7 @@ Browser Bluetooth support and real peripheral behavior still require device test
 
 The [official Lua API](https://solana.com/breakpoint/badge/apps/docs) caps mesh messages at 200 JSON bytes and four per second.
 The [connectivity guide](https://solana.com/breakpoint/badge/apps/docs/connectivity) describes lossy delivery and a shared radio.
-Sideband repeats absolute state every three seconds instead of sending one-shot increments.
+Shipmates repeats absolute state every three seconds instead of sending one-shot increments.
 
 BLE permits one connection and values up to 244 bytes. It has no built-in pairing or encryption in this API.
 Wi-Fi HTTP calls go through the badge server and an app host allowlist.

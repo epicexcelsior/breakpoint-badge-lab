@@ -16,7 +16,7 @@ Lua 5.5 apps, Python standard-library tooling, and Node.js firmware automation. 
 ## Priorities
 
 - One button starts the main experience.
-- Two nearby users demonstrate Sideband's value.
+- Two nearby users demonstrate Shipmates's value.
 - No account or server operated by this project is required on a physical badge.
 - Automated checks run without a connected device.
 - Hardware claims require hardware evidence.

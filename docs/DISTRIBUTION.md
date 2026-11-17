@@ -47,7 +47,7 @@ The current apps do not expose remote code execution or an unauthenticated manag
 
 ## Sharing between people
 
-Sideband's invite QR opens the public release page.
+Shipmates's invite QR opens the public release page.
 After official store publication, replace that target with the verified store listing and rebuild.
 Do not point users to an app ID that is not published.
 

@@ -2,7 +2,7 @@
 
 Useful, small apps for the Solana Breakpoint 2026 hardware badge.
 
-**Sideband** helps people find each other through a shared ask and offer. It uses the badge mesh without a backend.
+**Shipmates** helps people find each other through a shared ask and offer. It uses the badge mesh without a backend.
 **Pocket Pause** offers a quiet breathing guide and a focus timer. It works offline.
 
 This repository includes source, official documentation, the C SDK, and the official firmware emulator.
@@ -39,7 +39,7 @@ For scripted loading:
 
 ```sh
 python3 -m pip install -r requirements-usb.txt
-./badge usb sideband --port /dev/ttyUSB0
+./badge usb shipmates --port /dev/ttyUSB0
 ./badge usb pocket-pause --port /dev/ttyUSB0
 ```
 

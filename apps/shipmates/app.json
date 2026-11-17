@@ -1,0 +1,11 @@
+{
+  "id": "shipmates",
+  "name": "Shipmates",
+  "version": "0.1.0",
+  "summary": "Find your people. Match asks and offers, glow together, keep the connection.",
+  "icon": "shuffle",
+  "accent": "14F195",
+  "category": "social",
+  "permissions": ["mesh", "led"],
+  "hosts": []
+}
